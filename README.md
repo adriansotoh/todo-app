@@ -1,75 +1,94 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+<h1 align="center" id="title">Todo App</h1>
 
-¡Hola, Platzinauta!
+<p align="center"><img src="https://socialify.git.ci/alexcamachogz/quizz-multioption/image?language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;theme=Dark" alt="project-image"></p>
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+<p id="description">Todo is an application that is used to manage your tasks, it allows you to create them, delete them and mark them as done once you have finished them. It has a task search engine in case you want to search for a specific one.</p>
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+## Table of Contents
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+- [Demo](#demo)
+- [Features](#features)
+- [Installation Step](#installation-steps)
+- [The process](#the-process)
+  - [Built with](#built-with)
+  - [Structure](#quiz-structure)
+- [Useful resources](#useful-resources)
+- [License](#license)
+- [Author](#author)
 
-## Getting Started with Create React App
+## Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Quiz](https://adriansotoh.github.io/todo-app/)
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Here're some of the project's best features:
 
-### `npm start`
+- Add your owns TODO's to list
+- Search TODO's before added to list
+- Mark as done TODO's
+- Responsive design
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation Steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository.
+2. Open the project folder with your prefer code editor.
+3. Open the project in your terminal.
+4. Run `npm install` for install dependencies.
+5. Run `npm start` to up the project locally.
 
-### `npm run build`
+## The process
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Technologies used in the project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React 18
+- React Context and localStorage
+- CSS
 
-### `npm run eject`
+<!-- ### Quiz structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```Swift
+// Question struct
+struct Question {
+  let question: String
+  let answers: Array<String>
+  let correctAnswer: String
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  init(q: String, a: Array<String>, b: String){
+      question = q
+      answers = a
+      correctAnswer = b
+  }
+}
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```Swift
+// Question collection
+let quiz = [
+  Question(
+      q: "¿Quién pintó Las meninas?",
+      a: ["Francisco de Goya", "Diego Velázquez", "Salvador Dalí"],
+      b: "Diego Velázquez"),
+  Question(
+      q: "¿Cuál es la capital de Hungría?",
+      a: ["Viena", "Praga", "Budapest"],
+      b: "Budapest")
+]
+``` -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Useful resources
 
-## Learn More
+- [Figma](https://www.figma.com/) - Used to create design.
+- [Platzi](https://platzi.com/) - Course take on Platzi.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> This project is licensed under the MIT License
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Linkelind - [Adrian Soto](https://www.linkedin.com/in/adrian-soto-hidalgo/)
+- GitHub - [@adriansotoh](https://github.com/adriansotoh)
+- Gitlab - [@adriansotohidalgo16](https://gitlab.com/adriansotohidalgo16)
