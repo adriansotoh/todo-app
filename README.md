@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Todo App</h1>
 
-<p align="center"><img src="https://socialify.git.ci/alexcamachogz/quizz-multioption/image?language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;theme=Dark" alt="project-image"></p>
+<!-- <p align="center"><img src="https://socialify.git.ci/alexcamachogz/quizz-multioption/image?language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;theme=Dark" alt="project-image"></p> -->
 
 <p id="description">Todo is an application that is used to manage your tasks, it allows you to create them, delete them and mark them as done once you have finished them. It has a task search engine in case you want to search for a specific one.</p>
 
